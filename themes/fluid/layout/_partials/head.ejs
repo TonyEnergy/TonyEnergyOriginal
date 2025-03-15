@@ -1,6 +1,6 @@
 <%
 var separator = theme.title_join_string || theme.tab_title_separator
-var title = page.title ? [page.title, config.title].join(separator) : config.title
+var title = config.title
 var keywords = page.keywords || config.keywords
 if (keywords instanceof Array) {
   keywords = keywords.join(',')
