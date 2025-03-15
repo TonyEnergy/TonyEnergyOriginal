@@ -368,7 +368,7 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "Introduction", link: "/", icon: "iconfont icon-speakernotes" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+#    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
 #    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
 #    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
 #    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
@@ -445,11 +445,11 @@ open_graph:
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
-  content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
-    <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
-  '
+#  content: '
+#    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+#    <i class="iconfont icon-love"></i>
+#    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+#  '
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
@@ -466,11 +466,11 @@ footer:
   beian:
     enable: false
     # ICP证号
-    icp_text: 京ICP证123456号
+    icp_text: 粤ICP证030173号
     # 公安备案号，不填则只显示ICP
-    police_text: 京公网安备12345678号
+    police_text: 粤公网安备11000002000001号
     # 公安备案的编号，用于URL跳转查询
-    police_code: 12345678
+    police_code: 11000002000001
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
