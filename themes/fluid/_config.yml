@@ -992,9 +992,7 @@ about:
 #    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
 #    - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/wechat.jpg" }
-    - { class: "iconfont icon-whatsapp-fill", tip: "+86 13620223861" }
-
-
+    - { class: "iconfont icon-whatsapp-fill", link: "https://wa.me/8613620223861", tip: "WhatsApp" }
 
 #---------------------------
 # 自定义页
