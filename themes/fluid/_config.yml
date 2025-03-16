@@ -368,7 +368,7 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "Introduction", link: "/", icon: "iconfont icon-speakernotes" }
-#    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
 #    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
 #    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
 #    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
@@ -555,7 +555,7 @@ index:
 #---------------------------
 post:
   banner_img: /img/backgroud.png
-  banner_img_height: 70
+  banner_img_height: 40
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
@@ -687,7 +687,7 @@ post:
     # 显示更新日期
     # Show update date
     update_date:
-      enable: false
+      enable: true
       format: "LL"
 
   # 文章底部上一篇下一篇功能
@@ -959,7 +959,7 @@ category:
 tag:
   enable: true
   banner_img: /img/backgroud.png
-  banner_img_height: 80
+  banner_img_height: 40
   banner_mask_alpha: 0.3
   tagcloud:
     min_font: 15
@@ -1014,7 +1014,7 @@ page:
 page404:
   enable: true
   banner_img: /img/backgroud.png
-  banner_img_height: 85
+  banner_img_height: 40
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
   # Delay in redirecting to home page (milliseconds)
