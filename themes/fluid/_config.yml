@@ -369,6 +369,7 @@ navbar:
   menu:
     - { key: "Introduction", link: "/", icon: "iconfont icon-speakernotes" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "websocket demo", link: "/websocket/", icon: "iconfont icon-archive-fill" }
 #    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
 #    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
 #    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
